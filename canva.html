@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="vi-VN" class="theme light classic">
+    <head>
+        <base href="/thong-tin/">
+        <meta charset="utf-8">
+        <title>Thông tin </title>
+        <meta name="app-name" content="export_website"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="_assets/a0684b0780c739e9.vendor.ltr.css" rel="stylesheet" integrity="sha512-JwMCpiHdk95MoUTatfaZJwstzeDnWfvWMJiwnSxZfPmgeCe4yvQDQ+ONMQjIy/Ht72r0TmlE+gvZnYRnpdLdVg==" crossorigin="anonymous">
+        <link href="_assets/669ab2bf728ad49c.ltr.css" rel="stylesheet" integrity="sha512-M/+tGnjP0iMCe+4pG31mKaEqnHHk/ZGtjMSgdvPPhSD+3L4EKjb/3pu8CPcFLermHQSngp83jwB3wAtFgz4hwQ==" crossorigin="anonymous">
+        <link href="_assets/static_font_4.ltr.css" rel="stylesheet">
+        <link href="_assets/3d73de28df544179.strings.js" rel="preload" as="script" crossorigin="anonymous" integrity="sha512-XKO4Z5RWJtbMixZb+mishIMPFUG3j42QzbIa0Z/yzrhjBPWrStF5iaheqUGNwu5anE6nl8scngi8h7fbjXJcyQ==" nonce="ad3457f9-97ef-4db3-880f-6d8c7b75e0e6">
+        <link href="_assets/871de44302f84e14.vi-VN.js" rel="preload" as="script" crossorigin="anonymous" integrity="sha512-uo6xNjY92vJxW/uMDPx7WZWqkqnZWuI6h/kEfzosk7OIoWUumL0STjcfxn4C8V/2oAXgR+1DdoVcExmMKRJG2A==" nonce="ad3457f9-97ef-4db3-880f-6d8c7b75e0e6">
+        <link href="_assets/05024aa7f9b416cf.runtime.js" rel="preload" as="script" crossorigin="anonymous" integrity="sha512-KqraQTU3IDEZzZNlOTSaV/qhZUbgqOKR1LE90B57zCCeXNl88Smuz+UmuF90KKW6UKHv3ctQWPps3WYCyzoYTw==" nonce="ad3457f9-97ef-4db3-880f-6d8c7b75e0e6">
+        <link href="_assets/6b0b6cd7b4380852.i3d79q.vendor.js" rel="preload" as="script" crossorigin="anonymous" integrity="sha512-glSI1ZcMUx+fEJqWv9YcgE1tNCr56/uOkUR+FNrA606NNtXNGexG48WkOpi04ftgEqTi5xPNF+dwTGeSe9T0aw==" nonce="ad3457f9-97ef-4db3-880f-6d8c7b75e0e6">
+        <link href="_assets/c1a234f6b2c871b3.vendor.js" rel="preload" as="script" crossorigin="anonymous" integrity="sha512-m1GXwHO4tpyYDSYSzDaShhKx6e+e0dx/XTF3KhST6D+TZ9a8N640L7c5DmnOVRIzpcyLhJRHD4a3RPhT+VTYhA==" nonce="ad3457f9-97ef-4db3-880f-6d8c7b75e0e6">
+        <link href="_assets/4bcb29166ec94bff.js" rel="preload" as="script" crossorigin="anonymous" integrity="sha512-jzA+WaJcqGsg7F9vvs5VUBdklDJSYhaT2Oh6YquKbWhrl2KlNaa4VmbbR+CI0+Tq1db0/V0vU1nCx/bhWxnGDA==" nonce="ad3457f9-97ef-4db3-880f-6d8c7b75e0e6">
+        <meta name="referrer" content="strict-origin-when-cross-origin">
+        <meta property="og:title" content="Thông tin ">
+        <meta property="og:type" content="website">
+        <link rel="shortcut icon" href="_assets/images/2d0b56e7e51cf11036ad8734bdb67e2d.png">
+        <link rel="icon" href="_assets/images/e53c4bd8da5e491d9ab09e7cf0daf874.png" sizes="192x192">
+        <link rel="apple-touch-icon" href="_assets/images/725b756a69a7d4c235070e51acd85560.png" sizes="180x180">
+        <script nonce="ad3457f9-97ef-4db3-880f-6d8c7b75e0e6">
+            document.addEventListener('contextmenu', (e) => {
+                const isMedia = ['img', 'image', 'video', 'svg', 'picture'].some(tagName => tagName.localeCompare(e.target.tagName, undefined, {
+                    sensitivity: 'base'
+                }) === 0, );
+                isMedia && e.preventDefault();
+            }
+            );
+        </script>
+        <script nonce="ad3457f9-97ef-4db3-880f-6d8c7b75e0e6">
+            const lang = navigator.language ? navigator.language : 'en';
+            window.canva_installFooter = (container) => {
+                if (!(container instanceof HTMLDivElement)) {
+                    return;
+                }
+                fetch('_footer?lang=' + encodeURIComponent(lang)).then(response => {
+                    if (response.status !== 200) {
+                        return;
+                    }
+                    response.text().then(footerStr => {
+                        const div = document.createElement('div');
+                        div.innerHTML = footerStr;
+                        for (const child of [...div.children]) {
+                            if (child.tagName.toLowerCase() !== 'script') {
+                                container.append(child);
+                            }
+                        }
+
+                        ( () => {
+                            !function(e) {
+                                "use strict";
+                                const t = document.getElementById("modal_backdrop")
+                                  , n = document.getElementById("modal")
+                                  , o = document.getElementById("captcha-form")
+                                  , c = document.getElementById("report_button")
+                                  , d = document.getElementById("form_report")
+                                  , s = document.getElementById("form_cancel")
+                                  , l = document.getElementById("form_submit_reason")
+                                  , a = document.getElementById("form_go_back")
+                                  , r = document.getElementById("form_submit_captcha")
+                                  , m = document.getElementById("form_close")
+                                  , i = document.getElementById("form_close_initial")
+                                  , u = document.getElementById("report_reason_0")
+                                  , p = document.getElementById("error_message")
+                                  , _ = document.getElementById("error_message_captcha")
+                                  , y = new Map;
+                                y.set(0, document.getElementById("form_step_terms")),
+                                y.set(1, document.getElementById("form_step_report_reason")),
+                                y.set(4, document.getElementById("form_step_report_other"));
+                                const E = document.getElementById("form_step_report_ip");
+                                E && y.set(5, E),
+                                y.set(2, document.getElementById("form_step_captcha")),
+                                y.set(3, document.getElementById("form_step_success"));
+                                const f = document.getElementById("report_reason_4")
+                                  , g = document.getElementById("form_close_ip")
+                                  , h = document.getElementById("form_go_back_ip")
+                                  , I = document.getElementById("report_reason_other")
+                                  , k = document.getElementById("form_close_other")
+                                  , w = document.getElementById("form_go_back_other");
+                                function v() {
+                                    t.classList.remove("active"),
+                                    n.classList.remove("active"),
+                                    c.classList.remove("active"),
+                                    c.focus()
+                                }
+                                function B(e) {
+                                    y.forEach(( (t, n) => {
+                                        n === e ? (t.style.display = "block",
+                                        L(t)) : t.style.display = "none"
+                                    }
+                                    ))
+                                }
+                                let b, C = !1;
+                                const T = "NETEASE" === window.C_CAPTCHA_IMPLEMENTATION ? () => b : () => {
+                                    const e = o.elements.namedItem("g-recaptcha-response");
+                                    return null == e ? void 0 : e.value
+                                }
+                                ;
+                                t.onclick = v,
+                                s.onclick = v,
+                                m.onclick = v,
+                                i.onclick = v,
+                                g && (g.onclick = v),
+                                k.onclick = v,
+                                c.onclick = function() {
+                                    y.forEach(( (e, t) => {
+                                        e.style.display = 0 === t ? "block" : "none"
+                                    }
+                                    )),
+                                    t.classList.add("active"),
+                                    n.classList.add("active"),
+                                    c.classList.add("active"),
+                                    u.checked = !0,
+                                    setTimeout(( () => {
+                                        L(y.get(0))
+                                    }
+                                    ), 350)
+                                }
+                                ,
+                                d.onclick = d.dataset.reportUrl ? function() {
+                                    const {origin: e, pathname: t} = window.location
+                                      , n = e + t
+                                      , o = d.dataset.reportUrl + encodeURIComponent(n);
+                                    window.open(o)
+                                }
+                                : () => B(1),
+                                l.onclick = () => {
+                                    null != E && f.checked ? B(5) : I.checked ? B(4) : (B(2),
+                                    function() {
+                                        if (C)
+                                            return;
+                                        const e = document.createElement("script");
+                                        e.src = "NETEASE" === window.C_CAPTCHA_IMPLEMENTATION ? "https://cstaticdun.126.net/load.min.js" : "https://www.google.com/recaptcha/api.js",
+                                        e.async = !0,
+                                        e.defer = !0,
+                                        document.head.appendChild(e),
+                                        C = !0,
+                                        e.onload = "NETEASE" === window.C_CAPTCHA_IMPLEMENTATION ? () => {
+                                            var e;
+                                            null === (e = window.initNECaptcha) || void 0 === e || e.call(window, {
+                                                captchaId: window.C_CAPTCHA_KEY,
+                                                element: "#netease-captcha",
+                                                protocol: "https",
+                                                width: "auto",
+                                                onVerify: (e, t) => {
+                                                    b = t.validate
+                                                }
+                                            })
+                                        }
+                                        : () => {}
+                                    }())
+                                }
+                                ,
+                                a.onclick = () => B(1),
+                                h && (h.onclick = () => B(1)),
+                                w.onclick = () => B(1),
+                                o.addEventListener("submit", (function(e) {
+                                    e.preventDefault(),
+                                    p.style.display = "none",
+                                    _.style.display = "none";
+                                    const t = function() {
+                                        let e = "";
+                                        const t = document.getElementsByName("report_reason");
+                                        for (let n = 0; n < t.length; n++) {
+                                            const o = t[n];
+                                            o.checked && (e = o.value)
+                                        }
+                                        return e
+                                    }()
+                                      , n = T();
+                                    if (!n)
+                                        return void (_.style.display = "block");
+                                    const o = {
+                                        reason: t,
+                                        challenge: n
+                                    }
+                                      , c = window.location.origin + window.location.pathname + "/_api/report";
+                                    r.classList.add("loading"),
+                                    fetch(c, {
+                                        method: "POST",
+                                        body: JSON.stringify(o),
+                                        headers: {
+                                            "Content-Type": "application/json; charset=utf-8"
+                                        }
+                                    }).then((e => {
+                                        r.classList.remove("loading"),
+                                        e.ok ? B(3) : p.style.display = "block"
+                                    }
+                                    ))
+                                }
+                                ));
+                                const A = new Map
+                                  , L = e => {
+                                    const t = A.get(e);
+                                    null != t && document.removeEventListener("keydown", t);
+                                    const n = e.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])')
+                                      , o = e
+                                      , c = n[n.length - 1]
+                                      , d = function(e) {
+                                        ("Tab" === e.key || 9 === e.keyCode) && (e.shiftKey ? document.activeElement === o && (c.focus(),
+                                        e.preventDefault()) : document.activeElement === c && (o.focus(),
+                                        e.preventDefault()))
+                                    };
+                                    A.set(e, d),
+                                    document.addEventListener("keydown", d),
+                                    o.focus()
+                                }
+                                ;
+                                e.keepFocus = L,
+                                Object.defineProperty(e, "__esModule", {
+                                    value: !0
+                                })
+                            }({});
+                        }
+                        )();
+                    }
+                    );
+                }
+                );
+            }
+        </script>
+        <script nonce="ad3457f9-97ef-4db3-880f-6d8c7b75e0e6">
+            window.C_CAPTCHA_IMPLEMENTATION = 'RECAPTCHA';
+        </script>
+        <script nonce="ad3457f9-97ef-4db3-880f-6d8c7b75e0e6">
+            window.C_CAPTCHA_KEY = '6Ldk59waAAAAAMPqkICbJjfMivZLCGtTpa6Wn6zO';
+        </script>
+    </head>
+    <body>
+        <script nonce="ad3457f9-97ef-4db3-880f-6d8c7b75e0e6">
+            document.documentElement.classList.replace('adaptive', window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        </script>
+        <div id="root"></div>
+        <script nonce="ad3457f9-97ef-4db3-880f-6d8c7b75e0e6">
+            (function() {
+                window['__canva_public_path__'] = '_assets\/';
+                window['bootstrap'] = JSON.parse('{"base":{"A?":"B","L":false,"N":false,"E":"27e209ac82ce0b0cef29aa7e8dcb0449b7a6ff81","K":1739545713,"F":{"A?":"B"},"G":"CLIENT_FULL","I":"A","O":{"A?":"B"},"M":"/_online","U":[],"V":[],"a":{"K":"export_website","H":{}},"d":{"A":"wss://www.canva.com/_stream","B":{"F":"export_website"}},"b":{"A?":"H","C":{"a":"WEB"},"D":{"a":"WEB","c":"vi-VN"},"E":{},"P":[],"Q":[],"R":false,"S":false}},"page":{"A":{"B":{"A?":"A","A":"TAEXfxtKgiU","B":1},"C":{"A":1366.0,"B":768.0,"C":"D"},"Q":[],"R":[],"P":"en","D":"Thông tin ","E":"","F":["free","photo","static","real estate","simple dark","link in bio","link in bio templates","link in bio designs","bio link website","bio link template","bio link design","social bio link templates","social bio link","link in bio","instagram bio template","simple site","landing page","website","webpage","website builder","website maker","landing page template","website","website template","website design","landing page learning hub","website template","website design","real estate","real estate firm","modern","professional","clean","simple","basic","cream","green",""],"G":{},"Y":{},"V":[],"W":[],"A":[{"A?":"i","a":"PB5YMyvwJvSrygLr","R":false,"S":false,"U":false,"Q":{},"W":[],"X":[],"H":[],"L":{},"G":{"A":"EAEvfQ_qldk","B":4,"C":1},"D":{"C":"#223d3c","D":0.0,"F":false,"J":false,"G":false,"H":false},"r":[],"E":[{"A?":"I","A":1.1368683772161603E-13,"B":-5.6843418860808015E-14,"D":777.6008315535535,"C":767.9999999999999,"E":0.0,"F":0.0,"Q":false,"S":false,"2":{"A":"","B":true},"P":[],"5":{},"T":{},"W":{},"a":{"A":false,"C":"#f8f3f2","D":0.0,"F":false,"J":false,"G":false,"H":false},"e":[]},{"A?":"H","A":133.72563123533843,"B":240.655244164489,"D":296.29034322457534,"C":134.01084843679234,"E":0.0,"F":0.0,"Q":false,"S":false,"P":[],"5":{},"T":{},"W":{},"b":479.5532410026274,"a":216.89986922275523,"y":{},"c":[{"A?":"I","A":7.105427357601002E-15,"B":77.33530617021015,"D":324.88262866220686,"C":98.81744254560276,"E":0.0,"F":0.0,"Q":false,"S":false,"P":[],"5":{},"T":{},"W":{},"a":{"A":false,"B":{"A":{"A":"MADnlu97De4","B":2},"B":{"A":0.0,"B":0.0,"D":324.88262866220686,"C":324.88262866220686,"E":0.0},"E":0.0,"C":{"#000000":"#81827c"}},"D":0.0,"F":false,"J":false,"G":false,"H":false},"e":[]},{"A?":"K","A":118.0648795283581,"B":0.0,"D":479.5532410026274,"C":51.43974953818276,"E":0.0,"F":0.0,"Q":false,"S":false,"N":"heading","P":[],"5":{},"T":{},"W":{},"a":{"A":[{"A?":"A","A":"LQD\\n"}],"B":[{"A?":"A","A":{"text-align":{"B":"center"},"tracking":{"B":"50.0"},"color":{"B":"#223d3c"},"font-weight":{"B":"bold"},"font-family":{"B":"YAFdJh5vTu8,0"},"font-size":{"B":"26.6667"},"text-transform":{"B":"uppercase"}}},{"A?":"B","A":3},{"A?":"A","A":{"font-size":{"B":"26.666666666666647"},"leading":{"B":"1400.0"},"font-style":{"B":"normal"}}},{"A?":"B","A":1},{"A?":"A","A":{"leading":{},"tracking":{},"font-family":{},"font-size":{},"font-style":{},"color":{},"text-transform":{},"font-weight":{},"text-align":{}}}]},"b":{"A":[2]},"d":"B","e":295.2163019471488,"f":31.66666666666667,"l":false,"g":false,"h":"A"},{"A?":"K","A":178.8379623998741,"B":0.0,"D":479.5532410026274,"C":38.061906822881056,"E":0.0,"F":0.0,"Q":false,"S":false,"N":"heading","P":[],"5":{},"T":{},"W":{},"a":{"A":[{"A?":"A","A":"12A1_24-25\\n"}],"B":[{"A?":"A","A":{"text-align":{"B":"center"},"tracking":{"B":"185.0"},"color":{"B":"#9a4c2e"},"font-weight":{"B":"bold"},"font-family":{"B":"YAD-4LlVTw4,0"},"font-size":{"B":"13.3333"},"text-transform":{"B":"uppercase"}}},{"A?":"B","A":10},{"A?":"A","A":{"font-size":{"B":"13.333333333333343"},"leading":{"B":"1400.0"},"font-style":{"B":"normal"}}},{"A?":"B","A":1},{"A?":"A","A":{"leading":{},"tracking":{},"font-family":{},"font-size":{},"font-style":{},"color":{},"text-transform":{},"font-weight":{},"text-align":{}}}]},"b":{"A":[2]},"d":"B","e":193.1892096103091,"f":15.333333333333332,"l":false,"g":false,"h":"A"}],"d":[]},{"A?":"J","A":300.03894634742676,"B":67.46161020118763,"D":642.677611151178,"C":391.16105365257323,"E":0.0,"F":0.0,"Q":false,"S":false,"P":[],"5":{},"T":{},"W":{},"a":{"A":0.0,"B":0.0,"D":821.5,"C":500.0},"b":[{"A":"M204.4,0h412.7C730,0,821.5,91.5,821.5,204.4c0,0,0,0,0,0V500l0,0H0l0,0V204.4C0,91.5,91.5,0,204.4,0  C204.4,0,204.4,0,204.4,0z","B":{"A":true,"B":{"A":{"A":"MAELC6qvK1U","B":1},"B":{"A":-23.833333333333314,"B":0.0,"D":821.5,"C":547.6666666666666,"E":0.0},"E":0.0,"C":{}},"D":0.0,"F":false,"J":false,"E":"photo","G":false,"H":false},"D":0.0}],"d":[],"f":[],"g":[]},{"A?":"H","A":183.71828052619315,"B":860.9110253667629,"D":428.2889746332371,"C":400.5634389476137,"E":0.0,"F":0.0,"Q":false,"S":false,"P":[],"5":{},"T":{},"W":{},"b":428.2889746332371,"a":400.5634389476137,"y":{},"c":[{"A?":"I","A":53.84778654973485,"B":2.8421709430404007E-14,"D":428.28897463323705,"C":1.0,"E":0.0,"F":0.0,"Q":false,"S":false,"P":[],"5":{},"T":{},"W":{},"a":{"A":false,"C":"#f8f3f2","D":0.0,"F":false,"J":false,"G":false,"H":false},"e":[]},{"A?":"I","A":140.27669964920455,"B":2.8421709430404007E-14,"D":428.28897463323705,"C":1.0,"E":0.0,"F":0.0,"Q":false,"S":false,"P":[],"5":{},"T":{},"W":{},"a":{"A":false,"C":"#f8f3f2","D":0.0,"F":false,"J":false,"G":false,"H":false},"e":[]},{"A?":"K","A":0.0,"B":39.384195125573456,"D":349.5205843820902,"C":22.26666,"E":0.0,"F":0.0,"Q":false,"S":false,"N":"pretitle","P":[],"5":{},"T":{},"W":{},"a":{"A":[{"A?":"A","A":"Nguyễn Bảo Quyên\\n"}],"B":[{"A?":"A","A":{"text-align":{"B":"center"},"font-weight":{"B":"bold"},"color":{"B":"#f8f3f2"},"font-family":{"B":"YAFdJvl8raw,0"},"font-size":{"B":"18.6667"}}},{"A?":"B","A":16},{"A?":"A","A":{"tracking":{"B":"0.0"},"font-style":{"B":"normal"},"text-transform":{"B":"none"},"leading":{"B":"1400.0"}}},{"A?":"B","A":1},{"A?":"A","A":{"leading":{},"tracking":{},"font-family":{},"font-size":{},"font-style":{},"color":{},"text-transform":{},"font-weight":{},"text-align":{}}}]},"b":{"A":[2]},"d":"B","l":false,"g":false,"h":"A"},{"A?":"K","A":86.4289130994697,"B":39.384195125573456,"D":349.5205843820902,"C":22.26666,"E":0.0,"F":0.0,"Q":false,"S":false,"N":"heading","P":[],"5":{},"T":{},"W":{},"a":{"A":[{"A?":"A","A":"Lưu Mỹ Liên\\n"}],"B":[{"A?":"A","A":{"text-align":{"B":"center"},"font-weight":{"B":"bold"},"color":{"B":"#f8f3f2"},"font-family":{"B":"YAFdJvl8raw,0"},"font-size":{"B":"18.6667"}}},{"A?":"B","A":11},{"A?":"A","A":{"tracking":{"B":"0.0"},"font-style":{"B":"normal"},"text-transform":{"B":"none"},"leading":{"B":"1400.0"}}},{"A?":"B","A":1},{"A?":"A","A":{"leading":{},"tracking":{},"font-family":{},"font-size":{},"font-style":{},"color":{},"text-transform":{},"font-weight":{},"text-align":{}}}]},"b":{"A":[2]},"d":"B","l":false,"g":false,"h":"A"},{"A?":"K","A":172.8578261989394,"B":39.384195125573456,"D":349.5205843820902,"C":22.26666,"E":0.0,"F":0.0,"Q":false,"S":false,"N":"heading","P":[],"5":{},"T":{},"W":{},"a":{"A":[{"A?":"A","A":"Trần Nguyễn Bảo Thư\\n"}],"B":[{"A?":"A","A":{"text-align":{"B":"center"},"font-weight":{"B":"bold"},"color":{"B":"#f8f3f2"},"font-family":{"B":"YAFdJvl8raw,0"},"font-size":{"B":"18.6667"}}},{"A?":"B","A":19},{"A?":"A","A":{"tracking":{"B":"0.0"},"font-style":{"B":"normal"},"text-transform":{"B":"none"},"leading":{"B":"1400.0"}}},{"A?":"B","A":1},{"A?":"A","A":{"leading":{},"tracking":{},"font-family":{},"font-size":{},"font-style":{},"color":{},"text-transform":{},"font-weight":{},"text-align":{}}}]},"b":{"A":[2]},"d":"B","l":false,"g":false,"h":"A"},{"A?":"K","A":259.2867392984091,"B":39.384195125573456,"D":349.5205843820902,"C":22.26666,"E":0.0,"F":0.0,"Q":false,"S":false,"N":"heading","P":[],"5":{},"T":{},"W":{},"a":{"A":[{"A?":"A","A":"Đỗ Nguyễn Thiên Hân\\n"}],"B":[{"A?":"A","A":{"text-align":{"B":"center"},"font-weight":{"B":"bold"},"color":{"B":"#f8f3f2"},"font-family":{"B":"YAFdJvl8raw,0"},"font-size":{"B":"18.6667"}}},{"A?":"B","A":19},{"A?":"A","A":{"tracking":{"B":"0.0"},"font-style":{"B":"normal"},"text-transform":{"B":"none"},"leading":{"B":"1400.0"}}},{"A?":"B","A":1},{"A?":"A","A":{"leading":{},"tracking":{},"font-family":{},"font-size":{},"font-style":{},"color":{},"text-transform":{},"font-weight":{},"text-align":{}}}]},"b":{"A":[20]},"d":"B","l":false,"g":false,"h":"A"},{"A?":"K","A":345.7156523978788,"B":39.384195125573456,"D":349.5205843820902,"C":22.26666,"E":0.0,"F":0.0,"Q":false,"S":false,"N":"heading","P":[],"5":{},"T":{},"W":{},"a":{"A":[{"A?":"A","A":"Phạm Hồng Minh\\n"}],"B":[{"A?":"A","A":{"text-align":{"B":"center"},"font-weight":{"B":"bold"},"color":{"B":"#f8f3f2"},"font-family":{"B":"YAFdJvl8raw,0"},"font-size":{"B":"18.6667"}}},{"A?":"B","A":14},{"A?":"A","A":{"tracking":{"B":"0.0"},"font-style":{"B":"normal"},"text-transform":{"B":"none"},"leading":{"B":"1400.0"}}},{"A?":"B","A":1},{"A?":"A","A":{"leading":{},"tracking":{},"font-family":{},"font-size":{},"font-style":{},"color":{},"text-transform":{},"font-weight":{},"text-align":{}}}]},"b":{"A":[2]},"d":"B","l":false,"g":false,"h":"A"},{"A?":"I","A":226.70561274867424,"B":2.8421709430404007E-14,"D":428.28897463323705,"C":1.0,"E":0.0,"F":0.0,"Q":false,"S":false,"P":[],"5":{},"T":{},"W":{},"a":{"A":false,"C":"#f8f3f2","D":0.0,"F":false,"J":false,"G":false,"H":false},"e":[]},{"A?":"I","A":313.13452584814394,"B":2.8421709430404007E-14,"D":428.28897463323705,"C":1.0,"E":0.0,"F":0.0,"Q":false,"S":false,"P":[],"5":{},"T":{},"W":{},"a":{"A":false,"C":"#f8f3f2","D":0.0,"F":false,"J":false,"G":false,"H":false},"e":[]},{"A?":"I","A":399.5634389476137,"B":2.8421709430404007E-14,"D":428.28897463323705,"C":1.0,"E":0.0,"F":0.0,"Q":false,"S":false,"P":[],"5":{},"T":{},"W":{},"a":{"A":false,"C":"#f8f3f2","D":0.0,"F":false,"J":false,"G":false,"H":false},"e":[]}],"d":[]},{"A?":"I","A":58.94078322027937,"B":345.1382924027445,"D":120.13503065598206,"C":141.79027223345523,"E":0.0,"F":0.0,"Q":false,"S":false,"P":[],"5":{},"T":{},"W":{},"a":{"A":false,"B":{"A":{"A":"MAE-3fNQ4ic","B":1},"B":{"A":0.0,"B":0.0,"D":120.13503065598206,"C":141.79027223345523,"E":0.0},"E":0.0,"C":{}},"D":0.0,"F":false,"J":false,"G":false,"H":false},"e":[]}],"I":[]}],"I":[]},"Z":{"A?":"A","M":"vi-VN","e":true,"f":false,"g":{"A":"YAFdJvl8raw-0","B":"#223d3c","C":"#ffffff"}},"B":[{"A":"YACgEZ1cb1Q","B":0,"C":"Arimo","D":[{"style":"REGULAR","files":[{"url":"_assets/fonts/f8f199f09526f79e87644ed227e0f651.woff2","format":"WOFF2","unicodeRanges":[],"sizeBytes":194188},{"url":"_assets/fonts/daee28464eba92254cb149feea6599e3.otf","format":"OTF","unicodeRanges":[],"sizeBytes":436180},{"url":"_assets/fonts/4ff8a742aa834e35f10ead140b735c45.woff","format":"WOFF","unicodeRanges":[],"sizeBytes":234380}],"subsettedFiles":[],"scriptSubsetFiles":[],"metadata":{"head":{"unitsPerEm":2048,"yMin":-621,"yMax":2007},"hhea":{"ascender":1854,"descender":-434,"lineGap":67},"os2":{"sTypoAscender":1491,"sTypoDescender":-431,"sTypoLineGap":307,"usWinAscent":1854,"usWinDescent":434,"fsSelection":64}}},{"style":"BOLD","files":[{"url":"_assets/fonts/98c4d2c0223fc8474641c77f923528e9.woff2","format":"WOFF2","unicodeRanges":[],"sizeBytes":194064},{"url":"_assets/fonts/0bb563f2f60ffd4e62b64cb021c33776.otf","format":"OTF","unicodeRanges":[],"sizeBytes":438516},{"url":"_assets/fonts/9fd726aeae98b22824f0dc8947036e77.woff","format":"WOFF","unicodeRanges":[],"sizeBytes":234696}],"subsettedFiles":[],"scriptSubsetFiles":[],"metadata":{"head":{"unitsPerEm":2048,"yMin":-771,"yMax":2116},"hhea":{"ascender":1854,"descender":-434,"lineGap":67},"os2":{"sTypoAscender":1491,"sTypoDescender":-431,"sTypoLineGap":307,"usWinAscent":1854,"usWinDescent":434,"fsSelection":32}}},{"style":"ITALICS","files":[{"url":"_assets/fonts/d257a7100844bc3f98c9021168b6249e.woff2","format":"WOFF2","unicodeRanges":[],"sizeBytes":201132},{"url":"_assets/fonts/79d14bb61301a10c73c6cb293c29b309.otf","format":"OTF","unicodeRanges":[],"sizeBytes":440740},{"url":"_assets/fonts/ac9b8a560f98d1757a4565a2419d33c3.woff","format":"WOFF","unicodeRanges":[],"sizeBytes":240632}],"subsettedFiles":[],"scriptSubsetFiles":[],"metadata":{"head":{"unitsPerEm":2048,"yMin":-621,"yMax":2077},"hhea":{"ascender":1854,"descender":-434,"lineGap":67},"os2":{"sTypoAscender":1491,"sTypoDescender":-425,"sTypoLineGap":307,"usWinAscent":1854,"usWinDescent":434,"fsSelection":1}}},{"style":"BOLD_ITALICS","files":[{"url":"_assets/fonts/4de29305db46625343735e840e3d27aa.otf","format":"OTF","unicodeRanges":[],"sizeBytes":435028},{"url":"_assets/fonts/1060345c54d396e76d73f1da7ee200bd.woff2","format":"WOFF2","unicodeRanges":[],"sizeBytes":203232},{"url":"_assets/fonts/7fc2786f9023d4d812357cb787e9ad4b.woff","format":"WOFF","unicodeRanges":[],"sizeBytes":237660}],"subsettedFiles":[],"scriptSubsetFiles":[],"metadata":{"head":{"unitsPerEm":2048,"yMin":-771,"yMax":2109},"hhea":{"ascender":1854,"descender":-434,"lineGap":67},"os2":{"sTypoAscender":1491,"sTypoDescender":-431,"sTypoLineGap":307,"usWinAscent":1854,"usWinDescent":434,"fsSelection":33}}}],"E":false},{"A":"YAFdJh5vTu8","B":0,"C":"Gatwick","D":[{"style":"BOLD","files":[{"url":"_assets/fonts/793d79ac8fc619b83e916ad9d2362030.woff","format":"WOFF","unicodeRanges":[],"sizeBytes":38752},{"url":"_assets/fonts/40335ed6952d868afeb4484433688eda.woff2","format":"WOFF2","unicodeRanges":[],"sizeBytes":34708},{"url":"_assets/fonts/e65c572f3563fa687666a702b4de5f6f.otf","format":"OTF_CFF","unicodeRanges":[],"sizeBytes":57872}],"subsettedFiles":[],"scriptSubsetFiles":[],"metadata":{"head":{"unitsPerEm":1000,"yMin":-355,"yMax":1057},"hhea":{"ascender":860,"descender":-200,"lineGap":100},"os2":{"sTypoAscender":800,"sTypoDescender":-200,"sTypoLineGap":100,"usWinAscent":880,"usWinDescent":220,"fsSelection":32}}},{"style":"REGULAR","files":[{"url":"_assets/fonts/bc52fe95d4972740f34ff87f99a1b40f.otf","format":"OTF_CFF","unicodeRanges":[],"sizeBytes":56904},{"url":"_assets/fonts/4b43194f9112c322c7954792a08bce82.woff","format":"WOFF","unicodeRanges":[],"sizeBytes":38156},{"url":"_assets/fonts/7f3d50824f5578bd508cc1dff0b95b26.woff2","format":"WOFF2","unicodeRanges":[],"sizeBytes":34004}],"subsettedFiles":[],"scriptSubsetFiles":[],"metadata":{"head":{"unitsPerEm":1000,"yMin":-321,"yMax":1037},"hhea":{"ascender":860,"descender":-200,"lineGap":100},"os2":{"sTypoAscender":800,"sTypoDescender":-200,"sTypoLineGap":100,"usWinAscent":880,"usWinDescent":220,"fsSelection":64}}},{"style":"LIGHT","files":[{"url":"_assets/fonts/cb16bb4990f8310329f75ebe82b122ef.otf","format":"OTF_CFF","unicodeRanges":[],"sizeBytes":55016},{"url":"_assets/fonts/b2d77ccb963883154e80c9517a307f4f.woff","format":"WOFF","unicodeRanges":[],"sizeBytes":36388},{"url":"_assets/fonts/0fde5eeb51bceeec52453d7acc465f9c.woff2","format":"WOFF2","unicodeRanges":[],"sizeBytes":32520}],"subsettedFiles":[],"scriptSubsetFiles":[],"metadata":{"head":{"unitsPerEm":1000,"yMin":-299,"yMax":1025},"hhea":{"ascender":860,"descender":-200,"lineGap":100},"os2":{"sTypoAscender":800,"sTypoDescender":-200,"sTypoLineGap":100,"usWinAscent":880,"usWinDescent":220,"fsSelection":64}}},{"style":"EXTRA_LIGHT","files":[{"url":"_assets/fonts/6fca1531cbd0f298ca25a5524981c887.woff2","format":"WOFF2","unicodeRanges":[],"sizeBytes":27428},{"url":"_assets/fonts/de66effdd0db6437b721b417855dc148.woff","format":"WOFF","unicodeRanges":[],"sizeBytes":30752},{"url":"_assets/fonts/32bacc1f0d327d44f4081cdfa97df1e8.otf","format":"OTF_CFF","unicodeRanges":[],"sizeBytes":46660}],"subsettedFiles":[],"scriptSubsetFiles":[],"metadata":{"head":{"unitsPerEm":1000,"yMin":-286,"yMax":1027},"hhea":{"ascender":860,"descender":-200,"lineGap":100},"os2":{"sTypoAscender":800,"sTypoDescender":-200,"sTypoLineGap":100,"usWinAscent":880,"usWinDescent":220,"fsSelection":64}}},{"style":"ULTRA_BOLD","files":[{"url":"_assets/fonts/77dbe272927cd64838d3a04208509f10.woff","format":"WOFF","unicodeRanges":[],"sizeBytes":36612},{"url":"_assets/fonts/fd2a15810288e5ff1309e5dd77175f6a.woff2","format":"WOFF2","unicodeRanges":[],"sizeBytes":32744},{"url":"_assets/fonts/2188dae81f1f23c7434d0915d285decf.otf","format":"OTF_CFF","unicodeRanges":[],"sizeBytes":54684}],"subsettedFiles":[],"scriptSubsetFiles":[],"metadata":{"head":{"unitsPerEm":1000,"yMin":-373,"yMax":1067},"hhea":{"ascender":860,"descender":-200,"lineGap":100},"os2":{"sTypoAscender":800,"sTypoDescender":-200,"sTypoLineGap":100,"usWinAscent":880,"usWinDescent":220,"fsSelection":64}}}],"E":false},{"A":"YAD-4LlVTw4","B":0,"C":"Telegraf Medium","D":[{"style":"BOLD","files":[{"url":"_assets/fonts/78631abd9c7deee5a0ad3029bd4fc4e4.woff","format":"WOFF","unicodeRanges":[],"sizeBytes":30808},{"url":"_assets/fonts/e994db045eeaf509e95f656a9c60bd48.otf","format":"OTF_CFF","unicodeRanges":[],"sizeBytes":47680},{"url":"_assets/fonts/025d62e35b5e01fffcd29d00f0cecd0e.woff2","format":"WOFF2","unicodeRanges":[],"sizeBytes":26704}],"subsettedFiles":[],"scriptSubsetFiles":[],"metadata":{"head":{"unitsPerEm":1000,"yMin":-375,"yMax":1022},"hhea":{"ascender":760,"descender":-200,"lineGap":100},"os2":{"sTypoAscender":700,"sTypoDescender":-200,"sTypoLineGap":100,"usWinAscent":780,"usWinDescent":220,"fsSelection":64}}},{"style":"REGULAR","files":[{"url":"_assets/fonts/82b78e9e77419e3b85b52c16e75b4e1f.woff2","format":"WOFF2","unicodeRanges":[],"sizeBytes":24612},{"url":"_assets/fonts/2e24e770265cee9f3ba662024981ea22.woff","format":"WOFF","unicodeRanges":[],"sizeBytes":27904},{"url":"_assets/fonts/cfe518bba6abb25cb88f462cb886840c.otf","format":"OTF_CFF","unicodeRanges":[],"sizeBytes":43540}],"subsettedFiles":[],"scriptSubsetFiles":[],"metadata":{"head":{"unitsPerEm":1000,"yMin":-295,"yMax":1018},"hhea":{"ascender":760,"descender":-200,"lineGap":100},"os2":{"sTypoAscender":700,"sTypoDescender":-200,"sTypoLineGap":100,"usWinAscent":780,"usWinDescent":220,"fsSelection":64}}}],"E":false},{"A":"YAFdJvl8raw","B":0,"C":"Telegraf","D":[{"style":"BOLD","files":[{"url":"_assets/fonts/ba2686dad44eae2effef5ddbd5cce74d.woff","format":"WOFF","unicodeRanges":[],"sizeBytes":30584},{"url":"_assets/fonts/18f5573ad88bfacf53ab1da80eeeb263.otf","format":"OTF_CFF","unicodeRanges":[],"sizeBytes":47304},{"url":"_assets/fonts/a8409fd6c00d1370e1ad44d9d597b6f2.woff2","format":"WOFF2","unicodeRanges":[],"sizeBytes":26796}],"subsettedFiles":[],"scriptSubsetFiles":[],"metadata":{"head":{"unitsPerEm":1000,"yMin":-349,"yMax":1015},"hhea":{"ascender":760,"descender":-200,"lineGap":100},"os2":{"sTypoAscender":700,"sTypoDescender":-200,"sTypoLineGap":100,"usWinAscent":780,"usWinDescent":220,"fsSelection":32}}},{"style":"ULTRA_BOLD","files":[{"url":"_assets/fonts/025d62e35b5e01fffcd29d00f0cecd0e.woff2","format":"WOFF2","unicodeRanges":[],"sizeBytes":26704},{"url":"_assets/fonts/78631abd9c7deee5a0ad3029bd4fc4e4.woff","format":"WOFF","unicodeRanges":[],"sizeBytes":30808},{"url":"_assets/fonts/e994db045eeaf509e95f656a9c60bd48.otf","format":"OTF_CFF","unicodeRanges":[],"sizeBytes":47680}],"subsettedFiles":[],"scriptSubsetFiles":[],"metadata":{"head":{"unitsPerEm":1000,"yMin":-375,"yMax":1022},"hhea":{"ascender":760,"descender":-200,"lineGap":100},"os2":{"sTypoAscender":700,"sTypoDescender":-200,"sTypoLineGap":100,"usWinAscent":780,"usWinDescent":220,"fsSelection":64}}},{"style":"HEAVY","files":[{"url":"_assets/fonts/d06cc1383b7b3b1683cad7e7e5fae89d.otf","format":"OTF_CFF","unicodeRanges":[],"sizeBytes":44692},{"url":"_assets/fonts/634ccd8b88d00da2d4292a7793a60a66.woff2","format":"WOFF2","unicodeRanges":[],"sizeBytes":25672},{"url":"_assets/fonts/30b7c938af0ca39b60094cb4b4d6410d.woff","format":"WOFF","unicodeRanges":[],"sizeBytes":29368}],"subsettedFiles":[],"scriptSubsetFiles":[],"metadata":{"head":{"unitsPerEm":1000,"yMin":-402,"yMax":1042},"hhea":{"ascender":760,"descender":-200,"lineGap":100},"os2":{"sTypoAscender":700,"sTypoDescender":-200,"sTypoLineGap":100,"usWinAscent":780,"usWinDescent":220,"fsSelection":64}}},{"style":"EXTRA_LIGHT","files":[{"url":"_assets/fonts/062fa4ef8b1568474cc1975f3582b629.woff2","format":"WOFF2","unicodeRanges":[],"sizeBytes":23600},{"url":"_assets/fonts/f2babb37ece2498def9d80f796751e60.woff","format":"WOFF","unicodeRanges":[],"sizeBytes":26800},{"url":"_assets/fonts/d4e3f70da402dea09b8f0560dc78c3b8.otf","format":"OTF_CFF","unicodeRanges":[],"sizeBytes":41088}],"subsettedFiles":[],"scriptSubsetFiles":[],"metadata":{"head":{"unitsPerEm":1000,"yMin":-243,"yMax":979},"hhea":{"ascender":760,"descender":-200,"lineGap":100},"os2":{"sTypoAscender":700,"sTypoDescender":-200,"sTypoLineGap":100,"usWinAscent":780,"usWinDescent":220,"fsSelection":64}}},{"style":"MEDIUM","files":[{"url":"_assets/fonts/cfe518bba6abb25cb88f462cb886840c.otf","format":"OTF_CFF","unicodeRanges":[],"sizeBytes":43540},{"url":"_assets/fonts/82b78e9e77419e3b85b52c16e75b4e1f.woff2","format":"WOFF2","unicodeRanges":[],"sizeBytes":24612},{"url":"_assets/fonts/2e24e770265cee9f3ba662024981ea22.woff","format":"WOFF","unicodeRanges":[],"sizeBytes":27904}],"subsettedFiles":[],"scriptSubsetFiles":[],"metadata":{"head":{"unitsPerEm":1000,"yMin":-295,"yMax":1018},"hhea":{"ascender":760,"descender":-200,"lineGap":100},"os2":{"sTypoAscender":700,"sTypoDescender":-200,"sTypoLineGap":100,"usWinAscent":780,"usWinDescent":220,"fsSelection":64}}},{"style":"REGULAR","files":[{"url":"_assets/fonts/6cb4c1ba32f2ff0367ece99d3d8f4b0a.otf","format":"OTF_CFF","unicodeRanges":[],"sizeBytes":45116},{"url":"_assets/fonts/e0267351c63e1e2c76ee947553e966a6.woff2","format":"WOFF2","unicodeRanges":[],"sizeBytes":25864},{"url":"_assets/fonts/b9881c381d06cb01992bd123215bbbee.woff","format":"WOFF","unicodeRanges":[],"sizeBytes":29436}],"subsettedFiles":[],"scriptSubsetFiles":[],"metadata":{"head":{"unitsPerEm":1000,"yMin":-278,"yMax":1005},"hhea":{"ascender":760,"descender":-200,"lineGap":100},"os2":{"sTypoAscender":700,"sTypoDescender":-200,"sTypoLineGap":100,"usWinAscent":780,"usWinDescent":220,"fsSelection":64}}}],"E":false}],"E":[{"type":"VECTOR","id":"MAE-3fNQ4ic","version":1,"files":[{"url":"_assets/media/728229c40af07c0ec0b812f56c89c95e.svg","urlDenied":false,"width":268,"height":316,"watermarked":false,"spritesheet":false,"recoloring":{},"quality":"SCREEN","mimeType":"image/svg+xml"}]},{"type":"VECTOR","id":"MAE-3fNQ4ic","version":1,"files":[{"url":"_assets/media/728229c40af07c0ec0b812f56c89c95e.svg","urlDenied":false,"width":268,"height":316,"watermarked":false,"spritesheet":false,"recoloring":{},"quality":"SCREEN_2X","mimeType":"image/svg+xml"}]},{"type":"VECTOR","id":"MAE-3fNQ4ic","version":1,"files":[{"url":"_assets/media/728229c40af07c0ec0b812f56c89c95e.svg","urlDenied":false,"width":268,"height":316,"watermarked":false,"spritesheet":false,"recoloring":{},"quality":"SCREEN_3X","mimeType":"image/svg+xml"}]},{"type":"RASTER","id":"MAELC6qvK1U","version":1,"files":[{"url":"_assets/media/ff7ca69169de7b5f2c26d6b47ea673f1.jpg","urlDenied":false,"width":800,"height":533,"watermarked":false,"spritesheet":false,"recoloring":{},"quality":"SCREEN","mimeType":"image/jpeg"}]},{"type":"RASTER","id":"MAELC6qvK1U","version":1,"files":[{"url":"_assets/media/e9388eab9de2f28f7be964bfef0b6ecf.jpg","urlDenied":false,"width":1600,"height":1067,"watermarked":false,"spritesheet":false,"recoloring":{},"quality":"SCREEN_2X","mimeType":"image/jpeg"}]},{"type":"RASTER","id":"MAELC6qvK1U","version":1,"files":[{"url":"_assets/media/ea0e29273ecc1aa9cdf906ee6e652415.jpg","urlDenied":false,"width":2400,"height":1600,"watermarked":false,"spritesheet":false,"recoloring":{},"quality":"SCREEN_3X","mimeType":"image/jpeg"}]},{"type":"VECTOR","id":"MADnlu97De4","version":2,"files":[{"url":"_assets/media/3a1059c0c027541a3a131da4af72ee8a.svg","urlDenied":false,"width":81,"height":81,"watermarked":false,"spritesheet":false,"recoloring":{},"quality":"SCREEN","mimeType":"image/svg+xml"}]}],"F":[],"G":[],"H":[],"S":[],"K":{"A":"YAFdJvl8raw-0","B":"#223d3c","C":"#ffffff"},"Q":{"A":false,"B":true,"M":true},"R":false},"ui":{"N":false,"A":true,"B":"A","C":false,"D":false,"K":"A","I":false,"O":true,"J":false}}');
+                window['flags'] = JSON.parse('{}');
+                window['cmsg'] = window['cmsg'] || {
+                    locale: "vi-VN",
+                    strings: {}
+                };
+            }
+            )();
+        </script>
+        <script crossorigin="anonymous" src="_assets/3d73de28df544179.strings.js" integrity="sha512-XKO4Z5RWJtbMixZb+mishIMPFUG3j42QzbIa0Z/yzrhjBPWrStF5iaheqUGNwu5anE6nl8scngi8h7fbjXJcyQ==" nonce="ad3457f9-97ef-4db3-880f-6d8c7b75e0e6"></script>
+        <script crossorigin="anonymous" src="_assets/871de44302f84e14.vi-VN.js" integrity="sha512-uo6xNjY92vJxW/uMDPx7WZWqkqnZWuI6h/kEfzosk7OIoWUumL0STjcfxn4C8V/2oAXgR+1DdoVcExmMKRJG2A==" nonce="ad3457f9-97ef-4db3-880f-6d8c7b75e0e6"></script>
+        <script crossorigin="anonymous" src="_assets/05024aa7f9b416cf.runtime.js" defer integrity="sha512-KqraQTU3IDEZzZNlOTSaV/qhZUbgqOKR1LE90B57zCCeXNl88Smuz+UmuF90KKW6UKHv3ctQWPps3WYCyzoYTw==" nonce="ad3457f9-97ef-4db3-880f-6d8c7b75e0e6"></script>
+        <script crossorigin="anonymous" src="_assets/6b0b6cd7b4380852.i3d79q.vendor.js" defer integrity="sha512-glSI1ZcMUx+fEJqWv9YcgE1tNCr56/uOkUR+FNrA606NNtXNGexG48WkOpi04ftgEqTi5xPNF+dwTGeSe9T0aw==" nonce="ad3457f9-97ef-4db3-880f-6d8c7b75e0e6"></script>
+        <script crossorigin="anonymous" src="_assets/c1a234f6b2c871b3.vendor.js" defer integrity="sha512-m1GXwHO4tpyYDSYSzDaShhKx6e+e0dx/XTF3KhST6D+TZ9a8N640L7c5DmnOVRIzpcyLhJRHD4a3RPhT+VTYhA==" nonce="ad3457f9-97ef-4db3-880f-6d8c7b75e0e6"></script>
+        <script crossorigin="anonymous" src="_assets/4bcb29166ec94bff.js" defer integrity="sha512-jzA+WaJcqGsg7F9vvs5VUBdklDJSYhaT2Oh6YquKbWhrl2KlNaa4VmbbR+CI0+Tq1db0/V0vU1nCx/bhWxnGDA==" nonce="ad3457f9-97ef-4db3-880f-6d8c7b75e0e6"></script>
+    </body>
+</html>
